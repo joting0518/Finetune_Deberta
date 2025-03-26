@@ -1,0 +1,13 @@
+{
+    "input_file": "/Users/chenruoting/Desktop/test/scoreModel/data.csv",
+    "output_file": "preprocess_dataset.csv",
+    "model_name": "microsoft/deberta-v3-base",
+    "batch_size": 2,
+    "lr": 2e-5,
+    "weight_decay": 1e-2,
+    "num_epochs": 10000,
+    "train_data_path": "./preprocess_dataset_train.csv",
+    "test_data_path": "./preprocess_dataset_test.csv",
+    "checkpoint_path": "./saved_model/model_checkpoint.pth",
+    "model_type": "classification"
+}
